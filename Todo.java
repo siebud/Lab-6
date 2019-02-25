@@ -16,6 +16,8 @@ Tasks:
 9. equilateral triangle area
 10. equilateral triangle type
 11. Shape toString
+12. create Rectangle class
+13. create Square class
 
 Estimated Time (minutes):
 1. 10
@@ -29,6 +31,8 @@ Estimated Time (minutes):
 9. 30
 10. 15
 11. 30
+12. 45
+13. 50
 
 Actual Time (minutes):
 1. 10
@@ -41,5 +45,7 @@ Actual Time (minutes):
 8. 3
 9. 15
 10. 2
-11.
+11. 10
+12. 
+13. 
 */}

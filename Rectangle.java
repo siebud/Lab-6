@@ -6,12 +6,10 @@ public class Rectangle extends Polygon {
 	 * @author Sierra
 	 * @version 2019-02-24
 	 */
-	public class Trapezoid extends Polygon
-	{
 		/**
 		 * The variables storing the lengths of the sides and base of the rectangle 
 		 */
-		private double Side,Base;
+		private double height,width;
 
 		/**
 	     * The rectangle constructor. Store the side and base information and store in the sideLengths array.
@@ -20,16 +18,16 @@ public class Rectangle extends Polygon {
 	     * @param Side The side of the rectangle.
 	     * @param Base The base of the rectangle.
 	     */
-		public Trapezoid(String id, double Side, double Base)
+		public Rectangle(String id, double height, double width)
 		{
 			// TODO: complete this...
 			super(id);
-			this.Side = Side;
-			this.Base = Base;
-			sideLengths.add(Side);
-			sideLengths.add(Side);
-			sideLengths.add(Base);
-			sideLengths.add(Base);
+			this.height = height;
+			this.width = width;
+			sideLengths.add(height);
+			sideLengths.add(height);
+			sideLengths.add(width);
+			sideLengths.add(width);
 		}
 
 		/**
@@ -39,12 +37,12 @@ public class Rectangle extends Polygon {
 		 */
 		@Override
 		public double getArea() {
-			return Side*Base;
+			return height*width;
 		}
 
 		@Override
 		public String getShapeType() {
 			return "Rectangle";
 		}
-	}
+	
 }
