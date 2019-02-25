@@ -18,6 +18,12 @@ Tasks:
 11. Shape toString
 12. create Rectangle class
 13. create Square class
+14. ShapeSorter constructor
+15. default sort method
+16. custom ordering method
+17. sorter toString
+18. areaComparator compare
+19. areaComparator equals
 
 Estimated Time (minutes):
 1. 10
@@ -33,6 +39,12 @@ Estimated Time (minutes):
 11. 30
 12. 45
 13. 50
+14. 15
+15. 15
+16. 40
+17. 25
+18. 20
+19. 20
 
 Actual Time (minutes):
 1. 10
@@ -48,4 +60,10 @@ Actual Time (minutes):
 11. 10
 12. 25
 13. 25
+14. 15
+15. 10
+16. 10
+17. 10
+18. 15
+19. 10
 */}
