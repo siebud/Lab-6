@@ -12,10 +12,10 @@ Tasks:
 5. trapezoid constructor
 6. trapezoid getShapeType
 7. Shape compare
-8. polygon perimeter
-9. equlateral triangle constructor
-10. equilateral triangle area
-11. equilateral triangle type
+8. equlateral triangle constructor
+9. equilateral triangle area
+10. equilateral triangle type
+11. Shape toString
 
 Estimated Time (minutes):
 1. 10
@@ -28,18 +28,18 @@ Estimated Time (minutes):
 8. 30
 9. 20
 10. 15
-11. 20
+11. 30
 
 Actual Time (minutes):
-1. xxx
-2. xxx
-3. 
-4. 
+1. 10
+2. 5
+3. 3
+4. 2
 5. 
 6. 
 7. 
 8. 
 9. 
 10. 
-11. 
+11.
 */}
