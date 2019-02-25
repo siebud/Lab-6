@@ -16,15 +16,11 @@ public class Square extends Rectangle {
 	     * @param id The created shape's name id.
 	     * @param Side The side of the square.
 	     */
-		public Square(String id,double size)
+		public Square(String id, double size)
 		{
 			// TODO: complete this...
 			super(id, size, size);
 			sides = size;
-			sideLengths.add(size);
-			sideLengths.add(size);
-			sideLengths.add(size);
-			sideLengths.add(size);
 		}
 
 		/**

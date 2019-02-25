@@ -16,9 +16,9 @@ public class Driver
      */
 	public static void main(String[] args)
 	{
-		ShapeSorter sorter = new ShapeSorter();
-
-		// Create several shapes:
+//		ShapeSorter sorter = new ShapeSorter();
+//
+//		//Create several shapes:
 //		Shape s1 = new Square("A", 4.0);
 //		Shape s2 = new Rectangle("B", 4.0, 1.0);
 //		Shape s3 = new Rectangle("C", 3.0, 4.0);
@@ -50,6 +50,7 @@ public class Driver
 //		sorter.sortShapes(new ShapePerimeterComparator());
 //		System.out.println("###");
 //		System.out.println(sorter);
+
 		Shape s1 = new Circle("cir", 4.0);
 		System.out.println(s1.getId());
 		System.out.println(s1.getShapeType());
@@ -67,5 +68,17 @@ public class Driver
 		System.out.println(s3.getShapeType());
 		System.out.println(s3.getArea());
 		System.out.println(s3.getPerimeter());
+		
+		Shape s4 = new Rectangle("rect", 6, 4);
+		System.out.println(s4.getId());
+		System.out.println(s4.getShapeType());
+		System.out.println(s4.getArea());
+		System.out.println(s4.getPerimeter());
+		
+		Shape s5 = new Square("sqr", 5);
+		System.out.println(s5.getId());
+		System.out.println(s5.getShapeType());
+		System.out.println(s5.getArea());
+		System.out.println(s5.getPerimeter());
 	}
 }
