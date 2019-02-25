@@ -61,5 +61,11 @@ public class Driver
 		System.out.println(s2.getShapeType());
 		System.out.println(s2.getArea());
 		System.out.println(s2.getPerimeter());
+		
+		Shape s3 = new EquilateralTriangle("eqTri", 6);
+		System.out.println(s3.getId());
+		System.out.println(s3.getShapeType());
+		System.out.println(s3.getArea());
+		System.out.println(s3.getPerimeter());
 	}
 }
