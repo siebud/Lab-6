@@ -55,5 +55,11 @@ public class Driver
 		System.out.println(s1.getShapeType());
 		System.out.println(s1.getArea());
 		System.out.println(s1.getPerimeter());
+		
+		Shape s2 = new Trapezoid("trap",6, 5, 5, 10);
+		System.out.println(s2.getId());
+		System.out.println(s2.getShapeType());
+		System.out.println(s2.getArea());
+		System.out.println(s2.getPerimeter());
 	}
 }
