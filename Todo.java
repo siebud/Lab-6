@@ -26,6 +26,7 @@ Tasks:
 19. areaComparator equals
 20. PerimeterComparator compare and equals
 21. Finish ShapeTest cases
+22. Finish ShapeSorter test cases
 
 Estimated Time (minutes):
 1. 10
@@ -49,6 +50,7 @@ Estimated Time (minutes):
 19. 20
 20. 35
 21. 120
+22. 120
 
 Actual Time (minutes):
 1. 10
@@ -72,4 +74,5 @@ Actual Time (minutes):
 19. 10
 20. 30
 21. 140
+22. 130
 */}

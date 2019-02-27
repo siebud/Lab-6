@@ -75,7 +75,7 @@ public class ShapeSorter
 		// TODO: complete this...
 		String ans = "";
 		for (int i = 0; i < shapes.size(); i++)
-			ans = ans + "\n" + shapes.get(i).toString();
+			ans = ans + shapes.get(i).toString() + "\n";
 		return ans;
 	}
 
